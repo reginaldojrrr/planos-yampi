@@ -343,7 +343,7 @@ footer p {
         align-items: center;
     }
 
-    .cards-small .card-subtitle {
+    .cards-small li .card-subtitle {
         text-align: center;
     }
 
