@@ -74,17 +74,17 @@ p {
     font-size: 25px;
 }
 
-.card-body {
-    padding: 0;
-}
-
-.card-body p {
-    font-size: 12px;
-}
-
 .card i {
     color: #725BC2;
     font-size: 20px;
+}
+
+.cards-small .card-body {
+    padding: 0;
+}
+
+.cards-small .card-body p {
+    font-size: 12px;
 }
 
 .card-subtitle {
