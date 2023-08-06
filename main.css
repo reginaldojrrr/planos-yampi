@@ -1,0 +1,359 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid #eeeeee;
+}
+
+header p {
+    color: #56545E;
+    font-size: 16px;
+}
+
+header p:hover {
+    color: #46454d;
+}
+
+.navbar-toggler {
+    height: 40px;
+    width: 40px;
+    border-radius: 500px;
+    padding: 4px;
+    background-color: #E9EDF1;
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 160%;
+    max-width: 624px;
+    margin: auto;
+}
+
+.purple-bg {
+    background-color: #352B73;
+}
+
+.grey-bg {
+    background-color: #F4F7F8;
+    padding-bottom: 40px;
+}
+
+.white-text {
+    color: white;
+}
+
+#planos {
+    padding: 140px 0 180px 0;
+}
+
+.card {
+    box-shadow: 0px 24px 34px rgba(0,0,0,0.08);
+    border: none;
+    position: relative;
+    bottom: 100px;
+    width: 300px;
+    padding: 16px;
+}
+
+
+
+.card-title {
+    color: #333;
+    font-size: 25px;
+}
+
+.card i {
+    color: #725BC2;
+    font-size: 20px;
+}
+
+.card-subtitle {
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #725BC2;
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 13px 32px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a479e;
+}
+
+.btn-primary:active {
+    background-color: #493983;
+}
+
+.btn-link {
+    color: #855BD2;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.preco, .preco-apoio {
+    color: #725BC2;
+    font-weight: bold;
+}
+
+.preco-apoio {
+    font-size: 15px;
+}
+
+.preco {
+    font-size: 40px;
+}
+
+.taxa {
+    font-weight: 16px;
+    font-weight: bold;
+}
+
+.taxa-detalhe {
+    font-size: 14px;
+}
+
+.card .btn {
+    margin: 24px 0;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #999;
+}
+
+.bi.bi-check {
+    color: rgb(55, 179, 55);
+}
+
+.purple-bg-2 {
+    background-color: #503296;
+    padding: 72px 0;
+}
+
+.pink-text {
+    color: #FA3296;
+}
+
+.btn-secondary {
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 13px 32px;
+    border: none;
+    background-color: white;
+    color: #725BC2;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(228, 222, 222);
+}
+
+#entrar-em-contato {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+#duvidas {
+    padding: 100px 0;
+}
+
+.accordion {
+    max-width: 680px;
+    margin: auto;
+}
+
+.accordion-button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 32px 24px;
+    background-color: white;
+    color: #333;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    color: #333;
+}
+
+.accordion-body{
+    padding: 32px 24px;
+    color: #666;
+}
+
+.accordion-body p {
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.purple-text {
+    color: #725BC2;
+}
+
+#vamos-comecar {
+    padding: 100px 0;
+}
+
+#vamos-comecar .container {
+    border-bottom: 1px solid #eeeeee;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+#logo-footer {
+    height: 40px;
+}
+
+#logo {
+    width: fit-content;
+}
+
+#info {
+    align-items: center;
+}
+
+#info p {
+    font-size: 14px;
+    color: #333;
+}
+
+#tag-app {
+    background-color: #503296;
+    border-radius: 8px;
+    display: flex;
+    padding: 10px 10px 10px 30px;
+    align-items: center;
+    width: 400px;
+    gap: 24px;
+}
+
+#tag-app p {
+    color: white;
+    font-size: 17px;
+}
+
+.cards-small ul {
+    margin-bottom: -45px;
+}
+
+.cards-small .card {
+    width: 30%;
+}
+
+.cards-small .card-text,
+.cards-small .card-subtitle {
+    text-align: left;
+    margin-left: 0;
+}
+
+#floating-btn {
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0px -3px 20px rgba(0,0,0,0.1);
+}
+
+#floating-btn button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    gap: 24px;
+}
+
+@media (min-width: 950px) {
+    .cards-small {
+        display: none;
+    }
+}
+
+@media (min-width: 674px) and (max-width: 950px) {
+    .cards-large {
+        display: none;
+    }
+
+    .card {
+        bottom: 75px;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        padding: 4px 0;
+    }
+}
+
+@media (max-width: 673px) {
+    .cards-small .card-body div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-small .card-subtitle {
+        text-align: center;
+    }
+
+    .cards-large {
+        display: none;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        padding: 4px 0;
+    }
+}
+
+#tab-planos {
+    flex-wrap: nowrap;
+}
+
+.nav-link {
+    padding: 4px;
+}
+
+.nav-item .active .card {
+    border: 2px solid #725BC2;
+}
