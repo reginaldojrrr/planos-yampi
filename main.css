@@ -240,6 +240,10 @@ footer {
     margin-bottom: 100px;
 }
 
+footer p {
+    margin-left: 0;
+}
+
 #logo-footer {
     height: 40px;
 }
