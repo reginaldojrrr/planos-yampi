@@ -69,11 +69,17 @@ p {
     padding: 16px;
 }
 
-
-
 .card-title {
     color: #333;
     font-size: 25px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body p {
+    font-size: 12px;
 }
 
 .card i {
